@@ -1,15 +1,14 @@
 ## ChatLibrary
 
-## Project Description
+### Project Description
 ChatLibrary is a generative AI-powered chat application designed to answer user questions based on a proprietary knowledge base. It utilizes advanced language models and vector databases to provide accurate and context-aware responses.
 
-### Table of Contents
+#### Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
 - [Tech Stack](#technologies-used)
 
-### Installation
+#### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/rnepal2/ChatLibrary.git
@@ -24,12 +23,18 @@ ChatLibrary is a generative AI-powered chat application designed to answer user 
    export AZURE_OPENAI_API_KEY='your_api_key'
    export AZURE_OPENAI_ENDPOINT='your_endpoint'
    ```
-
-### Usage
+#### Usage
 Run the application using:
+   streamlit run app.py --server.port 3000
 
-### Tech Stack
+#### Tech Stack
 - Streamlit: For building the web application interface.
 - LangChain: For managing language model interactions.
 - Azure OpenAI: For leveraging advanced language models.
 - ChromaDB: For vector database management.
+
+#### UI
+<p align="center">
+  <img src="https://github.com/rnepal2/ChatLibrary/blob/main/static/ui_screenshot.png" width="600" height="650">
+</p>
+
