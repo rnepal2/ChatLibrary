@@ -1,7 +1,7 @@
 ## ChatLibrary
 
 ### Project Description
-ChatLibrary is a generative AI-powered chat application designed to answer user questions based on a proprietary knowledge base. It utilizes advanced language models and vector databases to provide accurate and context-aware responses.
+ChatLibrary is a generative AI-powered chat application designed to answer user questions based on a proprietary knowledge base. It utilizes advanced language models and vector databases to provide accurate and context-aware responses along with references and user feedback collection.
 
 #### Table of Contents
 - [Installation](#installation)
