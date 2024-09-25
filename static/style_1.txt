@@ -1,0 +1,17 @@
+<style>
+    header {visibility: hidden;}
+ 
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+          
+    .reportview-container .sidebar-content {{
+        padding-top: 1.0rem;
+        padding-left: 0.0rem;
+        padding-right: 10rem;
+    }}
+    .reportview-container .main .block-container {{
+        padding-top: 1.0rem;
+        padding-left: 0.0rem;
+        padding-right: 10rem;
+    }}
+</style>
