@@ -35,6 +35,6 @@ Run the application using:
 
 #### UI
 <p align="center">
-  <img src="https://github.com/rnepal2/ChatLibrary/blob/main/static/ui_screenshot.png" width="800" height="650">
+  <img src="https://github.com/rnepal2/ChatLibrary/blob/main/static/ui_screenshot.png" width="800" height="600">
 </p>
 
