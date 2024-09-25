@@ -12,8 +12,8 @@ ChatLibrary is a generative AI-powered chat application designed to answer user 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rnepal2/chatlibrary.git
-   cd chatapp
+   git clone https://github.com/rnepal2/ChatLibrary.git
+   cd ChatLibrary
    ```
 2. Install the required packages:
    ```bash
