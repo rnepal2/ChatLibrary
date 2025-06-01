@@ -45,7 +45,7 @@ ChatLibrary integrates several cutting-edge technologies to deliver its intellig
 
 The RAG pipeline in ChatLibrary is defined as a graph using LangGraph. This offers a modular and clear way to represent the flow of data and the sequence of operations. Here’s a conceptual peek at how nodes (representing specific operations) and conditional edges (representing decision points based on the current state) are defined in the `src/rag/graph.py` file:
 
-\`\`\`python
+```python
 # 'workflow' is an instance of StateGraph from LangGraph
 
 # Example: Adding a node for the document retrieval step.
@@ -64,7 +64,7 @@ workflow.add_conditional_edges(
         "generate": "generate",             # If docs are good, proceed to answer generation
     },
 )
-\`\`\`
+```
 
 This snippet illustrates how LangGraph enables each step in the RAG process to be encapsulated as a node and then connected dynamically based on the outcomes of previous steps. This creates a robust and adaptable system capable of handling complex decision-making.
 
