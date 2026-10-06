@@ -171,7 +171,7 @@ def chat_bot(human):
     print(response)
     return response
 
-if len(sources) > 10:
+if len(sources) > 0:
     update_userlog(messages, LOGPATH)
 
 # chatbot
